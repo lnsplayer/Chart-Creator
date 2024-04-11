@@ -16,8 +16,8 @@ function plotGraph() {
         mode: "lines",
     };
     const layout = {
-        xaxis: { title: "X-axis" },
-        yaxis: { title: "Y-axis" },
+        xaxis: { title: "X" },
+        yaxis: { title: "Y" },
     };
     Plotly.newPlot("graph", [trace], layout);
 };
